@@ -1,6 +1,5 @@
-
 function titleCase(str) {
-  str = str.split(' ');
+  str = str.toLowerCase().split(' ');
   var array = [];
   for (var i = 0; i < str.length; i++) {
     array[i] = str[i].charAt(0).toUpperCase();
